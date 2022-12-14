@@ -1,0 +1,596 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+a {
+  text-decoration: none;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+}
+
+.strelka {
+  position: absolute;
+  left: 54px;
+}
+
+.breadcrumbs {
+  margin-top: 10px;
+  display: flex;
+  max-width: 70px;
+  width: 100%;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: bisque; */
+  position: relative;
+}
+
+.mainitems {
+  display: flex;
+  
+}
+
+.basket-title {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 12px;
+  margin-bottom: 21px;
+}
+
+.basket-table {
+  /* border-color: #E8E3E3; */
+  /* border-radius: 10px;
+  border: 1px solid black; */
+  max-width: 870px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 0 1px #e8e3e3;
+}
+
+table tr:not(:last-child) {
+  border-bottom:1px solid #e8e3e3;
+}
+
+
+.table-title {
+  padding: 14px 29px;
+  text-align: start;
+  max-width: 130px;
+  width: 100%;
+  font-family: 'TT Norms',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.table-title-end {
+  padding: 14px 29px;
+  text-align: end;
+  max-width: 135px;
+  width: 100%;
+  font-family: 'TT Norms',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.4;
+}
+
+.table-title-middle {
+  max-width: 130px;
+  width: 100%;
+}
+
+.basket-table {
+  max-width: 875px;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow:0px 1px 1px 1px #e8e3e3;
+}
+
+.table-item {
+  max-width: 871px;
+  width: 100%;
+}
+
+.table-item1 {
+  width: 560px;
+  
+}
+
+.table-item2 {
+  width: 560px;
+
+}
+
+.table-item3 {
+  width: 560px;
+}
+
+.img-rosess {
+  border-radius: 10px;
+}
+
+.table-item1-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.table-item2-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
+.table-item3-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.buttons > input {
+  max-width: 14px;
+  /* width: 100%; */
+  text-align: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.buttons {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #D0D2D7;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.buttons > input {
+  border: none;
+}
+
+.price {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  width: 165px;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.cross {
+  border: 2px solid #E2195B;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.table-price {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.content-right-box{
+  /* background-color: rgb(121, 121, 121); */
+  position: sticky;
+}
+.right-table{
+  width: 277px;
+  /* height: 300px; */
+  margin-left: 21px;
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 10px;
+  border: 1px solid #E3E3E8;
+  box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.08);
+  
+} 
+.border-right th{
+  border-bottom: 1px solid #E3E3E8;
+  padding: 10px 25px;
+}
+
+.right-table-title-left, .right-table-title-left-text {
+  text-align: left;
+  padding: 10px 25px 10px 25px;
+}
+.right-table-title-right, .right-table-title-right-text{
+  text-align: right;
+  padding: 10px 25px 10px 25px;
+}
+.height-padding td{
+  padding-top: 15px
+}
+.height-padding-bootom td{
+  padding-bottom: 15px;
+}
+.right-table-title-left, .right-table-title-right{
+font-family: 'TT Norms', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #1B1C21;
+}
+.right-table-title-left-text, .right-table-title-right-text{
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222A46;
+}
+.right-table tr .right-table-title-right-text span{
+  color: #E2195B;
+}
+
+.input-btn{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+}
+.input-btn-input{
+  width: 227px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #D0D2D7;
+  border-radius: 6px;
+  padding-left: 20px;
+
+}
+.input-btn-btn{
+  width: 36px;
+  height: 36px;
+  background-color: #F2F3F5;
+  border-radius: 6px;
+  border: none;
+  position: absolute;
+  top: 6px;
+  right: 30px;
+}
+.input-btn-btn img{
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  vertical-align: middle;
+}
+.btn-botton{
+  margin: 15px 0 25px 0;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.btn-botton-botton{
+  width: 227px;
+  height: 48px;
+  border: none;
+  background: #0093A2;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.section-title {
+  max-width: 875px;
+  width: 100%;
+  margin-left: 365px;
+  border: 1px solid #E2E4EB;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+}
+
+
+
+.section-title-h {
+  margin-top: 30px;
+}
+
+
+
+.smallitems {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #E2E4EB;
+  max-width: 370px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px 5px;
+  cursor: pointer;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ballons {
+  background-color: #0093A2;
+  max-width: 120px;
+  width: 100%;
+  text-align: center;
+  padding: 8px 33px 8px 33px;
+  border-radius: 8px;
+  color: white;
+}
+
+.smallitems:nth-child(even) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.littlethings {
+  display: flex;
+  margin-top: 10px;
+  gap: 15px;
+  /* box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.08 ); */
+}
+
+.littlethings-plus {
+  box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.08 );
+  margin-top: 15px;
+  max-width: 160px;
+  width: 100%;
+  min-height: 224px;
+  border-radius: 10px;
+}
+
+.littlethings-plus img {
+  padding: 8px 12px 0px 15px;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.littlethings-plus h3 {
+  padding: 3px 15px 12px 15px;
+  max-width: 130px;
+  width: 100%;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.littlethings-plus div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.littlethings-plus div span {
+  padding-top: 5px;
+}
+
+
+.text {
+  position: relative;
+  box-sizing: border-box;
+  width: 620px;
+  height: 125px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #D0D2D7;
+  padding-left: 20px;
+  padding-top: 13px;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.textopens {
+  margin: 20px 0px 5px 0px;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text::placeholder {
+  position: absolute;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.receipt {
+  margin-top: 40px;
+  max-width: 620px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #E2E4EB;
+  border-radius: 10px;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 5px 5px 5px 0px;
+  cursor: pointer;
+}
+
+.selfdelivery {
+  padding: 12px 114px 12px 114px;
+  
+}
+
+.delivery {
+  background-color: #0093A2;
+  color: white;
+  padding: 13px 114.5px 13px 114.5px;
+  border-radius: 8px;   
+}
+
+.contact-title {
+  margin-top: 40px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 15px;
+}
+
+/* .contact-title img {
+  margin-top: 25px;
+  
+} */
+
+.contactdata {
+  max-width: 873px;
+  width: 100%;
+}
+
+.dataform {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#text, #tel {
+  margin-top: 5px;
+}
+
+.name {
+  max-width: 300px;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #D0D2D7;
+  border-radius: 5px;
+  padding-left:20px ;
+  text-align: start;
+}
+
+.name::placeholder {
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.phone {
+  max-width: 300px;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #D0D2D7;
+  border-radius: 5px;
+  padding-left:20px;
+  text-align: start;
+}
+
+.pay {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+
+.pay-title {
+  margin-top: 20px;
+  font-family: 'TT Norms', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.image-pay {
+  margin-top: 10px;
+  width: 195px;
+  height: 65px;
+  cursor: pointer;
+}
+
+.pay-text {
+  width: 194px;
+  height: 40px;
+  margin-top: 5px;
+  font-family: 'TT Norms', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
